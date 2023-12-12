@@ -44,6 +44,12 @@ public class Exemplo {
       }
     }
 
+    for (String[] visitante : visitantes) { // visitantes
+      for (String informacao : visitante) { // informações dos visitantes
+        System.out.println(informacao);
+      }
+    }
+
     System.out.println("E acabou!");
     scan.close();
   }
